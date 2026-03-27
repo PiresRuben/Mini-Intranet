@@ -1,13 +1,13 @@
 var builder = WebApplication.CreateBuilder(args);
 
-// Ajoute les contrôleurs
+// Controller
 builder.Services.AddControllers();
 
-// Ajoute Swagger (doc auto de l'API)
+// Swagger (doc auto de l'API)
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Ajoute CORS (pour que React sur le port 3000 puisse appeler l'API)
+// CORS
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
@@ -25,7 +25,7 @@ app.UseSwaggerUI();
 // Active CORS
 app.UseCors();
 
-// Branche les contrôleurs
+// Branche les Controllers
 app.MapControllers();
 
 app.Run();

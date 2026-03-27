@@ -12,7 +12,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Modèles de requête
+# Modèles de requete
 
 class TextInput(BaseModel):
     text: str
@@ -42,7 +42,7 @@ def summarize(input: TextInput):
 
 @app.post("/translate")
 def translate(input: TranslateInput):
-    # Mock : on simule une traduction
+    # Mock fake traduction
     return {
         "original": input.text,
         "translated": f"[Traduit en {input.target_language}] {input.text}",

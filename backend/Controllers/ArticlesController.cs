@@ -7,14 +7,14 @@ namespace backend.Controllers;
 [Route("api/[controller]")]
 public class ArticlesController : ControllerBase
 {
-    // Notre "base de données" en mémoire (liste statique partagée)
+    // Data base en mémoire (liste statique partagée)
     private static List<Article> _articles = new()
     {
         new Article { Id = 1, Title = "Bienvenue chez Jint", Content = "Notre nouvelle plateforme intranet est en ligne !", Author = "Marie Dupont" },
         new Article { Id = 2, Title = "Mise à jour produit Q1", Content = "Découvrez les nouvelles fonctionnalités déployées ce trimestre.", Author = "Lucas Martin" }
     };
 
-    // GET /api/articles → récupérer tous les articles
+    // GET /api/articles to récupérer tous les articles
     [HttpGet]
     public ActionResult<List<Article>> GetAll()
     {

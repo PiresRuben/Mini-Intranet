@@ -33,3 +33,4 @@ C:\Users\Ruben\source\repos\Mini-Intranet\backend\obj\Debug\net9.0\refint\backen
 C:\Users\Ruben\source\repos\Mini-Intranet\backend\obj\Debug\net9.0\backend.pdb
 C:\Users\Ruben\source\repos\Mini-Intranet\backend\obj\Debug\net9.0\backend.genruntimeconfig.cache
 C:\Users\Ruben\source\repos\Mini-Intranet\backend\obj\Debug\net9.0\ref\backend.dll
+C:\Users\Ruben\source\repos\Mini-Intranet\backend\obj\Debug\net9.0\backend.sourcelink.json

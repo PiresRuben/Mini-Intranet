@@ -8,7 +8,7 @@ Démontrer la maîtrise d'une stack moderne (React, C#, Python) à travers un in
 
 ## Aperçu
 
-![screenshot](screenshot.png)
+![screenshot](Mini-Intranet-Home.png)
 
 ## Architecture
 ```
